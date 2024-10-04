@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header nav ul li a {
+    @apply  text-white font-semibold sm:text-base md:text-2xl lg:text-2xl  sm:ml-3 md:ml-10
+  
+  }
+  .card {
+    @apply rounded-xl p-5 text-white text-center;
+    background-color: #07070c42;
+  }
+  .card i{
+    @apply text-4xl;
+  }
+  .card p{
+    @apply text-xl font-bold mt-3;
+  }
+  .card h3{
+    @apply text-3xl font-bold mt-1;
+  }
+  .card .detales{
+    @apply flex justify-between items-center mt-3 text-slate-400 cursor-pointer ;
+  }
+  .card .detales i{
+    @apply pt-2 text-lg;
+  }
